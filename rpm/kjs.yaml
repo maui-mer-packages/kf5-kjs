@@ -1,5 +1,5 @@
-Name         : kf5-kjs
-Version      : 5.0.0
+Name         : kjs
+Version      : 5.1.0
 Release      : 1
 Group        : System/Base
 License      : GPLv2+
@@ -48,7 +48,7 @@ Files:
     - "%{_kf5_bindir}/kjs5"
     - "%{_kf5_libdir}/libKF5JS.so.*"
     - "%{_kf5_libdir}/libKF5JSApi.so.*"
-    - "%{_kf5_datadir}/kf5/kjs/create_hash_table"
+    - "%{_kf5_datadir}/kjs/create_hash_table"
 
 SubPackages:
     - Name: devel
@@ -63,6 +63,6 @@ SubPackages:
           - "%{_kf5_includedir}/wtf"
           - "%{_kf5_libdir}/libKF5JS.so"
           - "%{_kf5_libdir}/libKF5JSApi.so"
-          - "%{_kf5_libdir}/cmake/KF5JS"
-          - "%{_datadir}/qt5/mkspecs/modules/qt_KJS.pri"
-          - "%{_datadir}/qt5/mkspecs/modules/qt_KJSApi.pri"
+          - "%{_kf5_cmakedir}/KF5JS"
+          - "%{_kf5_mkspecsdir}/qt_KJS.pri"
+          - "%{_kf5_mkspecsdir}/qt_KJSApi.pri"
