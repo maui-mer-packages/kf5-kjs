@@ -7,7 +7,6 @@ Summary      : KDE Frameworks 5 Tier 1 functional module with JavaScript interpr
 Description  : |
   KDE Frameworks 1 Tier 1 functional module with JavaScript interpreter.
 URL          : http://www.kde.org
-SetupOptions : -q -n %{name}-%{version}/upstream
 
 Sources:
     - "%{name}-%{version}.tar.xz"
